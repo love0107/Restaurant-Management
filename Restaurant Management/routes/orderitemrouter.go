@@ -7,7 +7,7 @@ import (
 )
 
 
-func OrderRouters(incomingRoutes *gin.Engine){
+func OrderItemsByOrder(incomingRoutes *gin.Engine){
 	incomingRoutes.GET("/orderItems", controllers.GetOrderItems())
 	incomingRoutes.GET("/orderItems/:orderItem_id", controllers.GetOrderItem())
 	incomingRoutes.GET("/orderItem-order/order_id", controllers.OrderItemsByOrder())
