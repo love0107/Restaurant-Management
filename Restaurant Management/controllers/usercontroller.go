@@ -17,7 +17,7 @@ func SingUp() gin.HandlerFunc{
 		
 	}
 }
-func Login() gin.HandlerFunc{
+func LogIn() gin.HandlerFunc{
 	return func(c *gin.Context){
 		
 	}
